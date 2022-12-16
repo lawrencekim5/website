@@ -1,0 +1,30 @@
+/* CSS styles for the website */
+
+/* The main content of the website */
+#main-content {
+    padding: 20px;
+}
+
+/* The header of the website */
+#header {
+    padding: 20px;
+    display: none;
+}
+
+/* The toggle button for the header */
+#toggle-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+/* The hover state for the toggle button */
+#toggle-button:hover {
+    cursor: pointer;
+    background-color: #eee;
+}
+
+/* The active state for the toggle button */
+#toggle-button.active {
+    background-color: #ccc;
+}

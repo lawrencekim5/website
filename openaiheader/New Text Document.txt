@@ -1,0 +1,15 @@
+/* JavaScript for the website */
+
+// Get a reference to the toggle button
+var toggleButton = document.getElementById("toggle-button");
+
+// Get a reference to the header
+var header = document.getElementById("header");
+
+// Add an event listener to the toggle button
+toggleButton.addEventListener("click", function() {
+    // Toggle the active class on the button
+    toggleButton.classList.toggle("active");
+
+    // Toggle the display of the header
+    if
